@@ -28,6 +28,7 @@ $(eval $(call create_flavor_targets,python,v3.11.1,aio wasmedge aio-wasmedge))
 $(eval $(call create_flavor_targets,python,v3.11.3,aio wasmedge aio-wasmedge))
 $(eval $(call create_flavor_targets,python,v3.11.4,aio wasmedge aio-wasmedge))
 $(eval $(call create_flavor_targets,python,v3.12.0,aio wasmedge aio-wasmedge))
+$(eval $(call create_flavor_targets,python,v3.12.2,aio wasmedge aio-wasmedge))
 
 .PHONY: oci-python-3.11.1
 oci-python-3.11.1: python/v3.11.1
